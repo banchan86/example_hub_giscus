@@ -1,0 +1,36 @@
+{
+  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "_site/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**",
+          "workflows/**"
+        ]
+      }
+    ],
+    "output": "_site",
+    "template": [
+      "default",
+      "modern",
+      "bonsai/template",
+      "template"
+    ],
+    "globalMetadata": {
+      "_appName": "Bonsai Examples Hub",
+      "_appTitle": "Bonsai Examples Hub",
+      "_enableSearch": true,
+      "pdf": false
+    }
+  }
+}
