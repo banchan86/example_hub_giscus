@@ -1,5 +1,5 @@
 ---
-giscus: true
+giscus_no_comment: true
 ---
 
 # Test Workflow
