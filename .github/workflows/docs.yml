@@ -34,12 +34,6 @@ jobs:
         working-directory: .bonsai
         run: ./Setup.ps1
         
-      - name: Restore
-        run: dotnet restore
-
-      - name: Build
-        run: dotnet build --no-restore
-        
       - name: Build Documentation
         working-directory: docs
         run: ./build.ps1
