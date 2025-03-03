@@ -24,8 +24,8 @@
       "default",
       "modern",
       "bonsai/template",
-      "template",
-      "giscus-template"
+      "giscus-template",
+      "template"
     ],
     "globalMetadata": {
       "_appName": "Bonsai Examples Hub",
