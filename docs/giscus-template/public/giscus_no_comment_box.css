@@ -121,10 +121,6 @@
     order: 3;
   }
 
-  .gsc-comments > .gsc-comment-box {
-    display: none !important; /* Hides the input comment box */
-  }
-
   .gsc-reply {
     display: none !important; /* Hides the reply comment box */
   }
