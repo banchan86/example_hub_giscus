@@ -2,5 +2,7 @@
   href: getting-started.md
 - name: Default Giscus
   href: default-giscus.md
-- name: Readonly Giscus
+- name: ReadOnly Giscus
   href: readonly-giscus.md
+- name: Readonly Giscus New Workflow
+  href: readonly-giscus-new.md
