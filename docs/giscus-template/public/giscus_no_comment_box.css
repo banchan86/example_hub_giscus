@@ -121,8 +121,8 @@
     order: 3;
   }
 
-  .gsc-comments > .gsc-reply-box {
-    display: none !important; /* Hides the reply comment box */
+  .gsc-reply-box {
+    display: none !important; /* Hides the reply comment box*/
   }
   
   .gsc-homepage-bg {
