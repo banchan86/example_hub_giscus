@@ -125,6 +125,10 @@
     display: none !important; /* Hides the reply comment box*/
   }
   
+  .gsc-reactions-menu {
+    display: none !important; /* Hides the reaction menu */
+  }
+
   .gsc-homepage-bg {
     background-color: #15202b;
   }
