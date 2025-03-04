@@ -114,13 +114,19 @@
   }
   
   .gsc-comments > .gsc-comment-box {
-    /* order: 2;
-    margin-bottom: 1rem; */
     display: none !important; /* Hides the input comment box */
   }
   
   .gsc-comments > .gsc-timeline {
     order: 3;
+  }
+
+  .gsc-comments > .gsc-comment-box {
+    display: none !important; /* Hides the input comment box */
+  }
+
+  .gsc-reply {
+    display: none !important; /* Hides the reply comment box */
   }
   
   .gsc-homepage-bg {
