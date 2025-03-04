@@ -120,10 +120,6 @@
   .gsc-comments > .gsc-timeline {
     order: 3;
   }
-
-  .gsc-reply {
-    display: none !important; /* Hides the reply comment box */
-  }
   
   .gsc-homepage-bg {
     background-color: #15202b;
