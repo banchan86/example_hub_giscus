@@ -1,6 +1,6 @@
-- name: Introduction
-  href: introduction.md
 - name: Getting Started
   href: getting-started.md
-- name: Test Workflow
-  href: test-workflow.md
+- name: Default Giscus
+  href: default-giscus.md
+- name: Readonly Giscus
+  href: readonly-giscus.md
