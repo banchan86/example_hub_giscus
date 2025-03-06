@@ -1,0 +1,38 @@
+{{!Licensed to the .NET Foundation under one or more agreements. The .NET Foundation licenses this file to you under the MIT license.}}
+{{!master(layout/_master.tmpl)}}
+{{{rawTitle}}}
+{{{conceptual}}}
+{{#giscus}} <!-- This checks if giscus is enabled in article -->
+<script src="https://giscus.app/client.js"
+        data-repo="banchan86/example_hub_playground"
+        data-repo-id="R_kgDOOAv18g"
+        data-category="Workflows"
+        data-category-id="DIC_kwDOOAv18s4CnahX"
+        data-mapping="title"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="transparent_dark"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+{{/giscus}}
+{{#giscus_no_comment}} <!-- This checks if giscus is enabled in article -->
+<script src="https://giscus.app/client.js"
+        data-repo="banchan86/example_hub_playground"
+        data-repo-id="R_kgDOOAv18g"
+        data-category="Workflows"
+        data-category-id="DIC_kwDOOAv18s4CnahX"
+        data-mapping="title"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="https://banchan86.github.io/example_hub_playground/public/giscus_no_comment_box.css"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+{{/giscus_no_comment}}

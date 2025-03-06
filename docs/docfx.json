@@ -24,6 +24,7 @@
       "default",
       "modern",
       "bonsai/template",
+      "giscus-template",
       "template"
     ],
     "globalMetadata": {
@@ -31,6 +32,12 @@
       "_appTitle": "Bonsai Examples Hub",
       "_enableSearch": true,
       "pdf": false
+    },
+    "markdownEngineProperties": {
+      "markdigExtensions": [
+      "attributes",
+      "customcontainers"
+      ]
     }
   }
 }
