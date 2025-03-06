@@ -1,2 +1,2 @@
-# example_hub_playground
-Test repository for various implementations for the proposed Bonsai Example Hub
+# example_hub_giscus
+Demo of [giscus](https://github.com/giscus/giscus) commenting system for proposed Bonsai Examples Hub
